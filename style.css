@@ -12,12 +12,14 @@ body {
 }
 .button1 {
     font-weight: 700;
+    box-shadow: 1px -1px 10px 2px;
 }
 #p1 {
     font-weight: 400;
 }
 .title2 {
     font-weight: 700;
+    text-align: center;
 }
 .fig1 {
     font-weight: 500;
@@ -35,4 +37,11 @@ body {
 }
 a {
     text-decoration: none;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+figure {
+    margin: 20px;
 }
